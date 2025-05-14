@@ -1,0 +1,172 @@
+-- Load Rayfield UI Library
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+-- Create Window
+local Window = Rayfield:CreateWindow({
+    Name = "normal hacker priv gui",
+    LoadingTitle = "dont leak",
+    LoadingSubtitle = "By normal hacker",
+    
+Theme = {
+    TextColor = Color3.fromRGB(255, 255, 255), -- White Text
+
+    Background = Color3.fromRGB(0, 0, 0), -- Black Background
+    Topbar = Color3.fromRGB(30, 30, 30), -- Dark Gray
+    Shadow = Color3.fromRGB(20, 20, 20), -- Darker Shadow
+
+    NotificationBackground = Color3.fromRGB(25, 25, 25),
+    NotificationActionsBackground = Color3.fromRGB(200, 200, 200), -- Light Gray
+
+    TabBackground = Color3.fromRGB(40, 40, 40),
+    TabStroke = Color3.fromRGB(60, 60, 60),
+    TabBackgroundSelected = Color3.fromRGB(255, 255, 255), -- White
+    TabTextColor = Color3.fromRGB(255, 255, 255),
+    SelectedTabTextColor = Color3.fromRGB(0, 0, 0), -- Black for contrast
+
+    ElementBackground = Color3.fromRGB(35, 35, 35),
+    ElementBackgroundHover = Color3.fromRGB(50, 50, 50),
+    SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
+    ElementStroke = Color3.fromRGB(70, 70, 70),
+    SecondaryElementStroke = Color3.fromRGB(50, 50, 50),
+
+    SliderBackground = Color3.fromRGB(100, 100, 100), -- Gray Slider
+    SliderProgress = Color3.fromRGB(255, 255, 255), -- White Progress
+    SliderStroke = Color3.fromRGB(150, 150, 150),
+
+    ToggleBackground = Color3.fromRGB(40, 40, 40),
+    ToggleEnabled = Color3.fromRGB(255, 255, 255), -- White Toggle
+    ToggleDisabled = Color3.fromRGB(80, 80, 80),
+    ToggleEnabledStroke = Color3.fromRGB(200, 200, 200), -- Light Gray Stroke
+    ToggleDisabledStroke = Color3.fromRGB(120, 120, 120),
+    ToggleEnabledOuterStroke = Color3.fromRGB(80, 80, 80),
+    ToggleDisabledOuterStroke = Color3.fromRGB(60, 60, 60),
+
+    DropdownSelected = Color3.fromRGB(50, 50, 50),
+    DropdownUnselected = Color3.fromRGB(40, 40, 40),
+
+    InputBackground = Color3.fromRGB(50, 50, 50),
+    InputStroke = Color3.fromRGB(80, 80, 80),
+    PlaceholderColor = Color3.fromRGB(200, 200, 200) -- Light Gray Placeholder
+},
+
+    ConfigurationSaving = {
+        Enabled = false,
+    },
+    KeySystem = true,
+    KeySettings = {
+        Title = "normal hacker priv gui",
+        Subtitle = "Enter Key to Continue",
+        Note = " you will get the key by normal hacker",
+        FileName = "V - Key",
+        SaveKey = false,
+        Key = "normal hacker is the best hacker"
+    }
+})
+
+-- Create Main Tab
+local ScriptsTab = Window:CreateTab("Scripts", "settings")
+
+local ScriptsSection = ScriptsTab:CreateSection("Scripts")
+
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "demon tentacles",
+    Interact = 'Click',
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TEST19983/Assigment/refs/heads/main/Assignment"))() 
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "polaria",
+    Interact = 'Click',
+    Callback = function()
+       loadstring(game:HttpGet("https://pastefy.app/agqEB2qs/raw",true))() 
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "max v16",
+    Interact = 'Click',
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/16visionzXTA/proxipizza/refs/heads/main/proxihvc9928.txt"))() 
+    end,
+})
+
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "bombvest v2",
+    Interact = 'Click',
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBypasserHax1/Ussjzbwusbdlq/refs/heads/main/Luafile33Xc3eww"))()
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "project duck ultimate",
+    Interact = 'Click',
+    Callback = function()
+         loadstring(game:HttpGet("https://pastefy.app/RX1PYZs1/raw"))()
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "robot machine",
+    Interact = 'Click',
+    Callback = function()
+     loadstring(game:HttpGet("https://pastefy.app/ur8n4dc6/raw",true))()("Copyright ERROR_CODE ECCS Co")  
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "fancykid utg",
+    Interact = 'Click',
+    Callback = function()
+     loadstring(game:HttpGet("https://pastefy.app/wdhmOHNe/raw"))()
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "solitude by fancykid",
+    Interact = 'Click',
+    Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/j09BnGB3"))()  
+    end,
+})
+-- Buttons for Main Template
+ScriptsTab:CreateButton({
+    Name = "external gui",
+    Interact = 'Click',
+    Callback = function()
+  loadstring(game:HttpGet("https://pastefy.app/4GLMKcft/raw"))() 
+    end,
+})
+
+CharacterTab = Window:CreateTab("Characters", person-standing")
+
+CharacterSection = CharacterTab:CreateSection("Character Scripts
+
+CharactherTab:CreateButton({
+    Name = "script name",
+    Interact = 'Click',
+    Callback = function()
+  Script here
+    end,
+})
+
+
+-- Notify Success
+Rayfield:Notify({
+    Title = "Loaded",
+    Content = "If you follow me that would be a ALOT!",
+    Duration = 3,
+    Image = 4483362458,
+    Actions = {
+        Ignore = {
+            Name = "OK",
+            Callback = function()
+                print("User closed notification")
+            end
+        }
+    }
+})
